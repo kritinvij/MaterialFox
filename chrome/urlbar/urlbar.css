@@ -163,7 +163,7 @@
 {
 	font-size: var(--toolbar-field-fontsize) !important;
 	border-radius: 99px !important;
-	background-color: var(--toolbar-field-background-color) !important;
+	background-color: #2a2a2e !important;
 	border: 0 !important;
 	box-shadow: none !important;
 	padding: 2px !important;
@@ -189,7 +189,7 @@
 #urlbar:hover,
 #searchbar:hover
 {
-	background-color: var(--toolbar-field-hover-background-color) !important;
+	background-color: #2a2a2e !important;
 }
 
 #urlbar[focused],
@@ -197,7 +197,7 @@
 #searchbar[focused],
 #searchbar[open]
 {
-	background-color: var(--toolbar-field-focus-background-color) !important;
+	background-color: #2a2a2e !important;
 }
 
 #urlbar[focused],
@@ -360,7 +360,7 @@
 	height: 16px !important;
 	top: calc(50% - 8px) !important;
 	right: 0 !important;
-	background: #9d9e9f !important;
+	background: #2a2a2e !important;
 	width: 1px !important;
 	transition: opacity .2s var(--ease-basic) !important;
 }
@@ -551,7 +551,7 @@
 #identity-box:hover:not(.no-hover),
 #tracking-protection-icon-container:hover #tracking-protection-icon-box
 {
-	background-color: var(--toolbarbutton-hover-background) !important;
+	background-color: #2a2a2e !important;
 }
 
 .urlbar-icon:hover:active:not([disabled]),
@@ -562,7 +562,7 @@
 #identity-box[open]:not(.no-hover),
 #tracking-protection-icon-container[open] #tracking-protection-icon-box
 {
-	background-color: var(--toolbarbutton-active-background) !important;
+	background-color: #2a2a2e !important;
 	transition-duration: 0 !important;
 }
 
@@ -711,7 +711,7 @@
 	right: 0 !important;
 	top: 0 !important;
 	bottom: 0 !important;
-	background: var(--identity-tab-color) !important;
+	background: #2a2a2e !important;
 	border-radius: 99px !important;
 	opacity: .1 !important;
 }
